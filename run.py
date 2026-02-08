@@ -11,7 +11,7 @@ DATE_TO = date.today()
 ALLOWED_YEARS = {2014, 2015}
 TOP_N = 200
 
-OUT_XLSX = "zebricek_TOP200_2014_2015.xlsx"
+OUT_XLSX = "zebricek_TOP200_2014_2015_best8_vcetne_druzstev.xlsx"
 
 session = requests.Session()
 session.headers.update({
