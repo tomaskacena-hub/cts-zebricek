@@ -31,4 +31,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: zebricek
-          path: "*.xlsx"
+          path: zebricek_TOP200_2014_2015_best8_vcetne_druzstev.xlsx
+          if-no-files-found: error
